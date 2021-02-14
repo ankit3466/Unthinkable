@@ -1,0 +1,67 @@
+h1{
+    margin-top: 0px;
+    background-color: beige;
+    text-align: center;
+    border-bottom: black 1px solid;
+}
+
+img{
+    height: 300px;
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div:nth-of-type(1){
+    margin-top: 10px;
+    /* padding-left: 10px;
+    padding-right: 10px; */
+    border-bottom: 2px solid aqua;
+}
+
+div h2{
+    margin-top: 0px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: cornsilk;
+}
+
+div p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+div h4{
+    padding-left: 10px;
+    margin-bottom: 2px;
+}
+
+div h4 a{
+    color: red;
+}
+
+.list{
+    border-bottom: 2px solid aqua;
+}
+
+h2{
+    text-align: center;
+    text-decoration: underline;
+}
+
+form{
+    margin-top: 0px;
+    text-align: center;
+}
+
+form input,button{
+    margin-bottom: 2px;
+    color: brown;
+}
+
+form button{
+    border-radius: 2px;
+}
